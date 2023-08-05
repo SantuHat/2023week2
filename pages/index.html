@@ -1,19 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>index</title>
-  </head>
-  <body>
-    <%- include('./layout/header'); -%>
 
-    <h1 class="index-title">我是首頁</h1>
-    <img src="../assets/images/people.png" style="width: 300px;" alt="cat">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>index</title>
+</head>
+
+<body>
+  <%- include('./layout/header'); -%>
+
+    <div class="banner">
+      <div class="container">
+        <div class="d-flex items-center">
+          <img class="mr-24" src="../assets/images/people.png" alt="picture-handsomeMan">
+          <div class="banner-text  d-flex flex-col">
+            <h2>Hi</h2>
+            <h2>I’m a front-end <br> developer</h2>
+            <h1 class="self-end">William</h1>
+            <a href="#" class="self-end">contact me<img src="../assets/images/arrow_outward.svg" alt="arrow icon"
+                class="ml-4"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="introduction">
+      <div class="container d-flex">
+        <div class="section-left mr-24">
+          <h2>Introduction</h2>
+          <p>Hi, I'm William Lee, a Front-End Developer with a passion for building beautiful and responsive websites
+            that provide an optimal user experience.</p>
+          <img class="mr-16" src="../assets/images/sparkle-sm.png" alt="sparkle-sm">
+          <img class="mr-16" src="../assets/images/sparkle-sm.png" alt="sparkle-sm">
+          <img src="../assets/images/sparkle-sm.png" alt="sparkle-sm">
+        </div>
+        <div class="section-right d-flex">
+          <img class="mr-24" src="../assets/images/sparkle.png" alt="sparkle">
+          <img class="mr-24" src="../assets/images/photographer.png" alt="photographer">
+          <img src="../assets/images/people-2.png" alt="people-2">
+        </div>
+      </div>
+    </div>
+    <div class="container aboutMe d-flex justify-between">
+      <ol class="card-group d-flex flex-wrap justify-between">
+        <li class="card mb-24">
+          <h3>01</h3>
+          <h3>Attention to Detail</h3>
+          <p>Meticulous code analysis and optimization.</p>
+        </li>
+        <li class="card mb-24">
+          <h3>02</h3>
+          <h3>Adaptability</h3>
+          <p>Swift learning of new technologies.</p>
+        </li>
+        <li class="card">
+          <h3>03</h3>
+          <h3>Problem Solver</h3>
+          <p>Identifying and resolving issues.</p>
+        </li>
+        <li class="card">
+          <h3>04</h3>
+          <h3>Team Player</h3>
+          <p>Collaborates and shares ideas.</p>
+        </li>
+      </ol>
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>With over 5 years of experience, I'm proficient in HTML, CSS, JavaScript, jQuery, and React. I have a strong understanding of user experience design and accessibility. I'm always learning new technologies and techniques to stay up-to-date in the field.</p>
+      </div>
+    </div>
 
     <%- include('./layout/footer'); -%>
 
-    <script type="module" src="../main.js"></script>
-  </body>
+      <script type="module" src="../main.js"></script>
+</body>
+
 </html>

@@ -1,4 +1,10 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+header {
+  background: #000000;
+  padding-top: 40px;
+  a {
+    color: #D1D1D1;
+    &:hover {
+      opacity: 0.7;
+    }
+  }
 }
