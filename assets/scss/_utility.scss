@@ -2,33 +2,55 @@
   max-width: 1296px;
   margin: 0 auto;
 }
+
 .d-flex {
   display: flex;
 }
+
 .justify-between {
   justify-content: space-between;
 }
+
 .items-center {
   align-items: center;
 }
+
 .mr-24 {
   margin-right: 24px;
 }
+
 .mr-16 {
   margin-right: 16px;
 }
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
 .ml-4 {
   margin-left: 4px;
 }
+
 .flex-col {
   flex-direction: column;
 }
+
 .self-end {
   align-self: flex-end;
 }
+
+.self-start {
+  align-self: flex-start;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }
+
 .mb-24 {
   margin-bottom: 24px;
+}
+
+.mr-20 {
+  margin-right: 20px;
 }
